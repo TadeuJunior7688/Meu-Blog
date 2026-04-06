@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+
+<body>
+    <header>
+        <div class="conteudo-header">
+            <a href="index.html">
+                <h1>O mundo dos carros</h1>
+            </a>
+            <nav id="nav-topo">
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="/html/contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="menu-hamburger">
+                <div class="barra-1"></div>
+                <div class="barra-2"></div>
+                <div class="barra-3"></div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="conteudo-main">
+            <h1>Blog sobre 4 Rodas</h1>
+            <div class="form-container">
+                <section class="formulario">
+                    <h2>Formulário de contato</h2>
+                    <form action="" id="formulario-contato">
+                        <div class="input-box">
+                            <label for="nome-completo">Nome completo</label>
+                            <input type="text" name="nome-completo" id="nome-completo" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="email@email.com" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="telefone">Telefone</label>
+                            <input type="text" name="telefone" id="telefone" placeholder="(xx) 9 xxxx-xxxx" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="assunto">Assunto</label>
+                            <textarea name="assunto" id="assunto" placeholder="Digite sua dúvida aqui" required></textarea>
+                        </div>
+                        <div class="input-box">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </section>
+                <section class="menu-lateral">
+                    <input type="search" placeholder="Pesquisar">
+                    <nav id="nav-lateral">
+                        <h3 id="btn-menu-lateral">Menu</h3>
+                        <ul>
+                            <li>
+                                <a href="carros_urbanos.html">Carros Urbanos</a>
+                            </li>
+                            <li>
+                                <a href="formula 1.html">Formula 1</a>
+                            </li>
+                            <li>
+                                <a href="stockCar.html">Stock Car</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="conteudo-footer">
+            <p>Automobilísmo 2026</p>
+            <p>&copy; Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script src="scripts/menu-responsivo.js"></script>
+    <script src="scripts/valida-formulario.js"></script>
+</body>
+
+</html>
